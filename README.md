@@ -1,126 +1,149 @@
-# FUTURE_DS_01
+# FUTURE_DS_02
 
 
-💻 HP Laptop Sales Dashboard – Data Analysis Project
+ 📊 Customer Churn Analysis – Power BI Dashboard
 📌 Project Overview
 
-This project focuses on analyzing HP Laptop Sales Data to identify sales trends, performance metrics, and business insights.
+This project analyzes customer churn behavior using Power BI to identify key factors contributing to customer attrition.
 
-The dashboard provides a clear understanding of revenue distribution, product performance, and sales patterns to support data-driven decision-making.
+The dashboard provides actionable insights into churn patterns based on:
 
-The analysis transforms raw sales data into meaningful insights using data cleaning, modeling, and visualization techniques.
+Gender
 
-🎯 Objective
+Contract Type
 
-Analyze overall sales performance
+Payment Method
 
-Identify top-performing products
+Tenure
 
-Track revenue trends
+Monthly Charges
 
-Understand regional/customer distribution
+The goal is to help businesses reduce churn and improve customer retention strategies.
 
-Support business strategy through visual insights
+🎯 Business Objective
 
-🗂 Dataset Information
+Identify high-risk churn segments
 
-The dataset contains:
+Analyze churn rate distribution
 
-Order Details
+Understand payment and contract impact on churn
 
-Product Information
+Track customer tenure patterns
 
-Sales Amount
+Support data-driven retention strategies
 
-Quantity Sold
+🗂 Dataset Description
 
-Dates
+The dataset contains telecom customer data including:
 
-Customer/Region Data
+Customer Demographics (Gender)
 
-Data cleaning steps performed:
+Internet Service Type
 
-Removed null values
+Contract Type
 
-Standardized date formats
+Payment Method
 
-Handled inconsistent text entries
+Tenure (in months)
 
-Created calculated columns for analysis
+Monthly Charges
 
-📊 Key Performance Indicators (KPIs)
+Churn Status (Yes/No)
 
-The dashboard highlights:
+Data preprocessing steps performed:
 
-✅ Total Revenue
+Removed blank values
 
-✅ Total Quantity Sold
+Checked categorical consistency
 
-✅ Total Orders
+Created calculated measures using DAX
 
-✅ Average Sales per Order
+Structured data model for reporting
 
-✅ Top-Selling Laptop Models
+📊 Key KPIs (Top Summary Cards)
 
-✅ Monthly Sales Trend
+👥 Total Customers: 7044
 
-✅ Region-wise Sales Distribution
+❌ Churn Customers: 1869
 
-📈 Dashboard Features
+📉 Churn Rate: 26.53%
 
-Interactive Filters (Date / Product / Region)
+💰 Total Charges: 16.06M
 
-Monthly Revenue Trend Analysis
+📈 Dashboard Insights
+1️⃣ Churn by Gender
 
-Product-wise Performance Comparison
+Nearly equal churn distribution between Male and Female customers.
 
-Category-wise Sales Breakdown
+2️⃣ Churn by Payment Method
 
-Dynamic KPIs
+Highest churn observed in Electronic Check users.
 
-The dashboard is designed for quick business insights with clean and user-friendly visualization.
+Automatic payment methods show lower churn risk.
+
+3️⃣ Churn by Contract Type
+
+Month-to-Month contracts show significantly higher churn.
+
+One-year and Two-year contracts have lower churn rates.
+
+4️⃣ Churn by Tenure
+
+Customers with low tenure (early months) have higher churn probability.
+
+Long-term customers are more likely to stay.
+
+5️⃣ Monthly Charges Impact
+
+Higher monthly charges show correlation with churn behavior.
 
 🛠 Tools & Technologies Used
 
-Microsoft Excel – Data Cleaning
+Power BI Desktop
 
-Power BI – Data Modeling & Visualization
+DAX (Data Analysis Expressions)
 
-DAX – Calculated Measures
+Data Modeling
 
-📌 Key Insights
+Interactive Filters & Slicers
 
-Identified best-performing laptop models
+📌 Key DAX Measures Used
 
-Found peak sales months
+Examples:
 
-Analyzed high-revenue regions
+Churn Customers
 
-Discovered contribution of each product category
+Total Customers
 
-💼 Business Impact
+Churn Rate (%)
 
-This dashboard helps:
+Total Charges
 
-Improve inventory planning
+💡 Business Recommendations
 
-Optimize marketing strategies
+Encourage long-term contracts to reduce churn.
 
-Focus on high-performing products
+Promote auto-payment methods.
 
-Enhance revenue forecasting
+Provide retention offers for new customers (low tenure).
 
-🚀 Conclusion
+Monitor high monthly charge customers closely.
 
-The HP Laptop Sales Dashboard demonstrates the ability to:
+🚀 Skills Demonstrated
 
-Clean and transform raw data
+Data Cleaning
 
-Build interactive dashboards
+KPI Design
 
-Create meaningful KPIs
+Data Modeling
 
-Generate actionable business insights
+Business Intelligence Reporting
 
-This project reflects strong analytical thinking and practical business intelligence skills.
+Insight Generation
+
+Dashboard Design
+
+📎 Conclusion
+
+This Customer Churn Dashboard provides a structured view of customer attrition patterns and helps stakeholders take proactive steps to improve customer retention and revenue stability.
 
